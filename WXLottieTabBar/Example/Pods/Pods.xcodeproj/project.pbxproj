@@ -124,6 +124,7 @@
 		F46BFBBE25B5613A00114FAE /* WXTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BFBBB25B5613900114FAE /* WXTabbarItem.swift */; };
 		F46BFBBF25B5613A00114FAE /* WXTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BFBBC25B5613900114FAE /* WXTabbar.swift */; };
 		F46BFBC025B5613A00114FAE /* WXTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BFBBD25B5613A00114FAE /* WXTabbarController.swift */; };
+		F46BFBC725B5709800114FAE /* WXAnimationTabbar-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F46BFBC625B5709800114FAE /* WXAnimationTabbar-Bridging-Header.h */; };
 		F4877B3857C780DCDB7F413A03F95600 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E4CB327AC29F42303E0DB1B3D88F /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F78E35D04F09485FA5DFA72FE1AD5AB2 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = DE14D6109C61B2D4EA2AF36C79A231D7 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F9E85548BF1EF8C5035BAF92233C34B6 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B6D43CE5AA9C07E71CE985B2DD3556 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -311,6 +312,7 @@
 		F46BFBBB25B5613900114FAE /* WXTabbarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WXTabbarItem.swift; path = WXLottieTabBar/Classes/WXTabbarItem.swift; sourceTree = "<group>"; };
 		F46BFBBC25B5613900114FAE /* WXTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WXTabbar.swift; path = WXLottieTabBar/Classes/WXTabbar.swift; sourceTree = "<group>"; };
 		F46BFBBD25B5613A00114FAE /* WXTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WXTabbarController.swift; path = WXLottieTabBar/Classes/WXTabbarController.swift; sourceTree = "<group>"; };
+		F46BFBC625B5709800114FAE /* WXAnimationTabbar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WXAnimationTabbar-Bridging-Header.h"; path = "WXLottieTabBar/Classes/WXAnimationTabbar-Bridging-Header.h"; sourceTree = "<group>"; };
 		F5AE0D3E37B390B251FD08E86A06F6CC /* Pods-WXLottieTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXLottieTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F785A9D92F5403AECF938E620FD0DA61 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		F7E3F49F23D9F10AE6C0599B84EFA0BB /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 		382686F58EE785E900C82A63BC52513D /* WXLottieTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F46BFBC625B5709800114FAE /* WXAnimationTabbar-Bridging-Header.h */,
 				F46BFBBC25B5613900114FAE /* WXTabbar.swift */,
 				F46BFBBD25B5613A00114FAE /* WXTabbarController.swift */,
 				F46BFBBB25B5613900114FAE /* WXTabbarItem.swift */,
@@ -662,6 +665,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6BAC9B8F4FE528CD8AB9D3B0084EEA /* WXLottieTabBar-umbrella.h in Headers */,
+				F46BFBC725B5709800114FAE /* WXAnimationTabbar-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
