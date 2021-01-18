@@ -1,0 +1,6 @@
+framework module Pods_WXLottieTabBar_Tests {
+  umbrella header "Pods-WXLottieTabBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
